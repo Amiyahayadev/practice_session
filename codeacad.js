@@ -44,3 +44,11 @@ console.log(number$)
 
 var a;
 console.log(a)
+
+const GRADE = 80
+
+if (GRADE >= 90) {
+    console.log("A, Excellent!")
+} else if (GRADE >= 80) {
+    console.log("B, Good")
+}

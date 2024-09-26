@@ -24,3 +24,8 @@
 //     } else
 //     return true;
 // }
+console.log("imported from script.js")
+
+export const summ = (c, d) =>  c + d;       // arrow function
+export const subtract = (c, d) => c - d;
+
