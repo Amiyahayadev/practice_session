@@ -52,3 +52,9 @@ if (GRADE >= 90) {
 } else if (GRADE >= 80) {
     console.log("B, Good")
 }
+let drawCats = function (howManyTimes) {
+	for (let i = 0; i < howManyTimes; i++) {
+		console.log("cat" + i + " " + "=^.^=");
+	}
+};
+drawCats(5);
