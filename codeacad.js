@@ -58,3 +58,34 @@ let drawCats = function (howManyTimes) {
 	}
 };
 drawCats(5);
+// STRING METHODS
+"Hello I'm Amina, a seasoned content writer and budding frontend developer!".slice(
+	0,
+	15
+);
+("Hello I'm Amina");
+"Hello there, how are you doing".toUpperCase();
+("HELLO THERE, HOW ARE YOU DOING");
+"HELLO THERE, HOW ARE YOU DOING".toLowerCase();
+("hello there, how are you doing");
+"HELLO THERE, HOW ARE YOU DOING"[0].toUpperCase() +
+	"ELLO THERE, HOW ARE YOU DOING".toLowerCase();
+("Hello there, how are you doing");
+"hELlo THERE, hOW ARE yOu doINg?"[0].toUpperCase() +
+	"hELlo THERE, hOW ARE yOu doINg?".slice(1).toLowerCase();
+("Hello there, how are you doing?");
+
+// Take a string, capitalize the first letter, and turn the rest of the string into lowercase
+
+let uglyString = "hELlo THERE, hOW ARE yOu doINg?";
+let lowerCaseStr = uglyString.toLowerCase();
+let firstCharacter = lowerCaseStr[0];
+let firstCharacterUpper = firstCharacter.toUpperCase();
+let restOfString = lowerCaseStr.slice(1);
+firstCharacterUpper + restOfString;
+("Hello there, how are you doing?");
+
+// Method two: capitalize the first letter, and turn the rest of the string into lowercase
+let sillyString = "hELlo THERE, hOW ARE yOu doINg?";
+sillyString[0].toUpperCase() + sillyString.slice(1).toLowerCase();
+("Hello there, how are you doing?");
